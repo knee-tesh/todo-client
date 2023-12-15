@@ -52,13 +52,17 @@
 }
 
 .task{
-  max-width: 24rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 4rem;
-  padding: 1.5rem;
+  gap: 1rem;
+  padding: 0.5rem;
+  border: 0.15rem solid #f3f3f3;
+  width: 10rem;
+  height: 12rem;
+  margin: 0.5rem auto;
+  background: #595454ad;
 }
 .main-wrapper{
  display: flex;
