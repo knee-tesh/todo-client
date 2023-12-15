@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import Footer from "./footer";
 import "./App.css";
 
 const url = import.meta.env.VITE_BASE_URL;
@@ -94,6 +95,7 @@ export const App = () => {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 };
