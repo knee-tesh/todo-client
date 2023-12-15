@@ -57,7 +57,7 @@
   gap: 1rem;
   padding: 0.5rem;
   border: 0.15rem solid #f3f3f3;
-  width: 10rem;
+  width: 8rem;
   height: 12rem;
   margin: 0.5rem auto;
   background: #595454ad;
@@ -71,13 +71,13 @@
 .header{
   all: unset;
   color: #61dafbaa;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .sub-header{
   color: #648dffaa;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -96,7 +96,7 @@
   min-width: 25rem;
 }
 .taskName{
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #d9d8e3;
   max-height: 60%;
   overflow: scroll;
